@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableHighlight, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Ionicons } from "@expo/vector-icons";
 import FormField from "../components/FormField";
 import HighlightButton from "../components/HighlightButton";
@@ -39,7 +39,6 @@ const styles = StyleSheet.create({
     width: '85%',
     maxWidth: 400,
     alignSelf: 'center',
-    
     paddingVertical: 24,
     justifyContent: 'space-between'
   },
